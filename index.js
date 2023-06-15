@@ -39,14 +39,7 @@ container.addEventListener('click', function(e){
 })
 
 clearBtn.addEventListener('click', function(){
-/*
-Challenge:
-1. Finish setting up this array of 
-   elements with the "product" class.
-2. Iterate over this array and remove 
-   the "purchase" class and add the 
-   "on-offer" class.
-*/
+
     const productsArray = document.getElementsByClassName('product')
     for (let product of productsArray){
         product.classList.remove('purchased')
